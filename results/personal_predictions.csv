@@ -1,0 +1,65 @@
+model,scaling,file,true,predicted
+SVM RBF,None,angry.wav,angry,angry
+SVM RBF,None,calm.wav,calm,disgust
+SVM RBF,None,disgust.wav,disgust,angry
+SVM RBF,None,fearful.wav,fearful,angry
+SVM RBF,None,happy.wav,happy,angry
+SVM RBF,None,neutral.wav,neutral,angry
+SVM RBF,None,sad.wav,sad,angry
+SVM RBF,None,surprised.wav,surprised,angry
+SVM RBF,Standard,angry.wav,angry,angry
+SVM RBF,Standard,calm.wav,calm,angry
+SVM RBF,Standard,disgust.wav,disgust,angry
+SVM RBF,Standard,fearful.wav,fearful,angry
+SVM RBF,Standard,happy.wav,happy,angry
+SVM RBF,Standard,neutral.wav,neutral,angry
+SVM RBF,Standard,sad.wav,sad,angry
+SVM RBF,Standard,surprised.wav,surprised,angry
+KNN,None,angry.wav,angry,fearful
+KNN,None,calm.wav,calm,disgust
+KNN,None,disgust.wav,disgust,fearful
+KNN,None,fearful.wav,fearful,sad
+KNN,None,happy.wav,happy,fearful
+KNN,None,neutral.wav,neutral,happy
+KNN,None,sad.wav,sad,disgust
+KNN,None,surprised.wav,surprised,angry
+KNN,Standard,angry.wav,angry,angry
+KNN,Standard,calm.wav,calm,angry
+KNN,Standard,disgust.wav,disgust,calm
+KNN,Standard,fearful.wav,fearful,angry
+KNN,Standard,happy.wav,happy,angry
+KNN,Standard,neutral.wav,neutral,angry
+KNN,Standard,sad.wav,sad,angry
+KNN,Standard,surprised.wav,surprised,angry
+Random Forest,None,angry.wav,angry,happy
+Random Forest,None,calm.wav,calm,sad
+Random Forest,None,disgust.wav,disgust,disgust
+Random Forest,None,fearful.wav,fearful,fearful
+Random Forest,None,happy.wav,happy,fearful
+Random Forest,None,neutral.wav,neutral,fearful
+Random Forest,None,sad.wav,sad,sad
+Random Forest,None,surprised.wav,surprised,fearful
+Random Forest,Standard,angry.wav,angry,fearful
+Random Forest,Standard,calm.wav,calm,sad
+Random Forest,Standard,disgust.wav,disgust,fearful
+Random Forest,Standard,fearful.wav,fearful,sad
+Random Forest,Standard,happy.wav,happy,happy
+Random Forest,Standard,neutral.wav,neutral,fearful
+Random Forest,Standard,sad.wav,sad,sad
+Random Forest,Standard,surprised.wav,surprised,fearful
+Logistic Regression,None,angry.wav,angry,fearful
+Logistic Regression,None,calm.wav,calm,calm
+Logistic Regression,None,disgust.wav,disgust,calm
+Logistic Regression,None,fearful.wav,fearful,calm
+Logistic Regression,None,happy.wav,happy,fearful
+Logistic Regression,None,neutral.wav,neutral,fearful
+Logistic Regression,None,sad.wav,sad,fearful
+Logistic Regression,None,surprised.wav,surprised,fearful
+Logistic Regression,Standard,angry.wav,angry,fearful
+Logistic Regression,Standard,calm.wav,calm,fearful
+Logistic Regression,Standard,disgust.wav,disgust,calm
+Logistic Regression,Standard,fearful.wav,fearful,calm
+Logistic Regression,Standard,happy.wav,happy,calm
+Logistic Regression,Standard,neutral.wav,neutral,calm
+Logistic Regression,Standard,sad.wav,sad,calm
+Logistic Regression,Standard,surprised.wav,surprised,fearful

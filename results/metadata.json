@@ -1,0 +1,15 @@
+{
+  "ravdess_n": 1440,
+  "train_n": 1152,
+  "test_n": 288,
+  "personal_n": 8,
+  "rate": 22050,
+  "features": 180,
+  "random_state": 42,
+  "versions": {
+    "librosa": "1.0.0",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5"
+  },
+  "method": "stratified file-level 80/20 split; shared actors possible; scalers fitted on training only"
+}
